@@ -1,12 +1,5 @@
-//
-//  ViewController.m
-//  TopDownloader_iOS
-//
-//  Created by Olga on 11/02/2017.
-//  Copyright © 2017 com.testwebsite. All rights reserved.
-//
-
 #import "ViewController.h"
+#import "Person.h"
 
 @interface ViewController ()
 
@@ -16,14 +9,11 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view, typically from a nib.
+    
+    Person *person = [[Person alloc] init];
+    [person setPrivateField:@"Private"];    // call to custom implemented setter of privat instance var
+    [person setPublicField:@"Public"];  // call to auto implemented setter of public prop attr
+    
 }
-
-
-- (void)didReceiveMemoryWarning {
-    [super didReceiveMemoryWarning];
-    // Dispose of any resources that can be recreated.
-}
-
 
 @end
