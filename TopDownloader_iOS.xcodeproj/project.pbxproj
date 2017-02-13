@@ -19,6 +19,7 @@
 /* Begin PBXFileReference section */
 		4047D5151E51C02E00E18251 /* ConstructFinalString.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ConstructFinalString.h; sourceTree = "<group>"; };
 		4047D5161E51C02E00E18251 /* ConstructFinalString.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ConstructFinalString.m; sourceTree = "<group>"; };
+		4047D5181E51C52000E18251 /* FeedType.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FeedType.h; sourceTree = "<group>"; };
 		40E758A21E4F5EA3000568E1 /* TopDownloader_iOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TopDownloader_iOS.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		40E758A61E4F5EA3000568E1 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		40E758A81E4F5EA3000568E1 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -47,6 +48,7 @@
 			children = (
 				4047D5151E51C02E00E18251 /* ConstructFinalString.h */,
 				4047D5161E51C02E00E18251 /* ConstructFinalString.m */,
+				4047D5181E51C52000E18251 /* FeedType.h */,
 			);
 			name = Model;
 			sourceTree = "<group>";
