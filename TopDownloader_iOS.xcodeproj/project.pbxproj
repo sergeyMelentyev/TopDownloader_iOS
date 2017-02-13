@@ -7,16 +7,18 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4047D5171E51C02E00E18251 /* ConstructFinalString.m in Sources */ = {isa = PBXBuildFile; fileRef = 4047D5161E51C02E00E18251 /* ConstructFinalString.m */; };
 		40E758A71E4F5EA3000568E1 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 40E758A61E4F5EA3000568E1 /* main.m */; };
 		40E758AA1E4F5EA3000568E1 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 40E758A91E4F5EA3000568E1 /* AppDelegate.m */; };
 		40E758AD1E4F5EA3000568E1 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 40E758AC1E4F5EA3000568E1 /* ViewController.m */; };
 		40E758B01E4F5EA3000568E1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 40E758AE1E4F5EA3000568E1 /* Main.storyboard */; };
 		40E758B21E4F5EA3000568E1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 40E758B11E4F5EA3000568E1 /* Assets.xcassets */; };
 		40E758B51E4F5EA3000568E1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 40E758B31E4F5EA3000568E1 /* LaunchScreen.storyboard */; };
-		40E758BE1E4F8F12000568E1 /* Person.m in Sources */ = {isa = PBXBuildFile; fileRef = 40E758BD1E4F8F12000568E1 /* Person.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		4047D5151E51C02E00E18251 /* ConstructFinalString.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ConstructFinalString.h; sourceTree = "<group>"; };
+		4047D5161E51C02E00E18251 /* ConstructFinalString.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ConstructFinalString.m; sourceTree = "<group>"; };
 		40E758A21E4F5EA3000568E1 /* TopDownloader_iOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TopDownloader_iOS.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		40E758A61E4F5EA3000568E1 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		40E758A81E4F5EA3000568E1 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -27,8 +29,6 @@
 		40E758B11E4F5EA3000568E1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		40E758B41E4F5EA3000568E1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		40E758B61E4F5EA3000568E1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		40E758BC1E4F8F12000568E1 /* Person.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Person.h; sourceTree = "<group>"; };
-		40E758BD1E4F8F12000568E1 /* Person.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Person.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -42,6 +42,29 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		4047D5121E51C00A00E18251 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				4047D5151E51C02E00E18251 /* ConstructFinalString.h */,
+				4047D5161E51C02E00E18251 /* ConstructFinalString.m */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		4047D5131E51C01200E18251 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		4047D5141E51C01800E18251 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
 		40E758991E4F5EA3000568E1 = {
 			isa = PBXGroup;
 			children = (
@@ -61,8 +84,9 @@
 		40E758A41E4F5EA3000568E1 /* TopDownloader_iOS */ = {
 			isa = PBXGroup;
 			children = (
-				40E758BC1E4F8F12000568E1 /* Person.h */,
-				40E758BD1E4F8F12000568E1 /* Person.m */,
+				4047D5141E51C01800E18251 /* Controller */,
+				4047D5131E51C01200E18251 /* View */,
+				4047D5121E51C00A00E18251 /* Model */,
 				40E758A81E4F5EA3000568E1 /* AppDelegate.h */,
 				40E758A91E4F5EA3000568E1 /* AppDelegate.m */,
 				40E758AB1E4F5EA3000568E1 /* ViewController.h */,
@@ -158,8 +182,8 @@
 			files = (
 				40E758AD1E4F5EA3000568E1 /* ViewController.m in Sources */,
 				40E758AA1E4F5EA3000568E1 /* AppDelegate.m in Sources */,
-				40E758BE1E4F8F12000568E1 /* Person.m in Sources */,
 				40E758A71E4F5EA3000568E1 /* main.m in Sources */,
+				4047D5171E51C02E00E18251 /* ConstructFinalString.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -316,6 +340,7 @@
 				40E758BB1E4F5EA3000568E1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
